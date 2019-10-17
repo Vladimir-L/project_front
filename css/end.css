@@ -1,0 +1,71 @@
+/*стили к блокам "контактная инфо.", и футер*/
+.contactDetails {
+	height: 982px;
+	text-align: center;
+	font-weight: normal;
+}
+.contactDetails h2 {
+	font-size: 34px;
+	color: #484848;
+	padding-bottom: 90px;
+	font-weight: normal;
+}
+.contactDetails h2 span {
+	border-bottom: 1px solid #829015;
+	padding-bottom: 16px;
+}
+#phoneNumber, #email, #address {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	width: 68%;
+	margin-bottom: 30px;
+}
+.contactDetails i {
+	font-size: 24px;
+	color: #f27652;
+}
+#phoneNumber p, #email p, #address p{
+	font-size: 24px;
+	color: #9c9c9c;
+	flex: 1;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 440px;
+  height: 50px;
+  padding: 12px 12px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+textarea {
+	height: 167px;
+	resize: none;
+}
+input[type=button] {
+	background-color: #f27654;
+	border-radius: 5px;
+	border-style: none;
+	color: white;
+	font-size: 16px;
+	height: 44px;
+	width: 313px;
+	margin-top: 23px;	
+}
+footer {
+	height: 150px;
+}
+.footerLine {
+	background-color: #f27654;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	color: white;
+  	font-weight: normal;
+  	font-size: 16px;
+  	height: 56px;
+ }
