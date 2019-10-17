@@ -14,7 +14,7 @@
 	border-bottom: 1px solid #829015;
 	padding-bottom: 16px;
 }
-#phoneNumber, #email, #address {
+.information {
 	display: flex;
 	align-items: center;
   	justify-content: center;
@@ -25,7 +25,7 @@
 	font-size: 24px;
 	color: #f27652;
 }
-#phoneNumber p, #email p, #address p{
+.information p{
 	font-size: 24px;
 	color: #9c9c9c;
 	flex: 1;
