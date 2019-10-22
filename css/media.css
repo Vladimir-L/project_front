@@ -1,0 +1,99 @@
+@media screen and (min-width: 560px) {
+    .websiteTitle {
+        height: 86px;
+        display: flex;
+        flex-direction: row;
+    }
+    .websiteTitle h1 {
+        font-size: 2em;
+        font-weight: bold;
+        padding: 0 40px;
+    }
+    .websiteTitle i {
+        display: none;
+    }
+    .menu {
+        flex-grow: 1;
+    }
+    .nav-menu {
+        display: flex;
+    }
+    .nav-menu li {
+        flex-grow: 1;
+        text-align: center;
+        font-size: 12px;
+        flex-grow: 1;
+    }
+    .nav-menu li a {
+        color: #794444;
+    }
+    .someText p {
+        font-size: 17px;
+    }
+    .someContent {
+        border: none;
+    }
+    .someContent h3 {
+        font-size: 21px;
+        margin-top: 0px
+    }
+    .firstSection{
+        min-height: 400px;
+        border: none;
+    }
+    .firstSection article {
+        margin-top: 20px;
+        width: 45%;
+    }
+    .firstSection p {
+        display: inline-block;
+        font-size: 12px;
+        width: 80%;
+    }
+    .secondSection {
+        height: 750px;
+    }
+    .projectTitle h3{
+        font-size: 21px;
+        margin: 0 0 20px 0;
+    }
+    .secondSection article{
+        width: 37%;
+    }
+    .talkToUs{
+        min-height: 340px;
+    }
+    .contactUs {
+        min-height: 300px;
+    }
+    .contactUs h2 {
+        font-size: 24px;
+        padding-bottom: 35px
+    }
+    .contactUs p {
+        font-size: 14px;
+    }
+    .contactDetails {
+        min-height: 750px;
+    }
+    .contactDetails h2 {
+        font-size: 22px;
+        margin: 80px 0 40px 0;
+    }
+    .contactDetails h2 span {
+           border: none;
+    }
+    .information {
+        width: 45%;
+    }
+    .information p {
+        font-size: 14px;
+    }
+
+    input[type=text], input[type=email], textarea {
+        width: 75%;
+    }
+    input[type=button] {
+        width: 55%;
+    }
+}
